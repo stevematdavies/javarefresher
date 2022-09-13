@@ -91,7 +91,6 @@ public class UserDaoImplTest {
     }
 
 
-
     @Test
     public void testSaveMultiple() throws SQLException {
         IUserDao userDao = new UserDaoImpl();
@@ -124,5 +123,7 @@ public class UserDaoImplTest {
         Optional<User> updatedUser = userDao.findById(foundUser.get().getId());
         assertEquals("found user name should be same as updated user",  updatedUser.get().getName(),"NewTestUser");
     }
+
+
 }
 
