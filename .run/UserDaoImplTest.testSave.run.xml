@@ -1,0 +1,19 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UserDaoImplTest.testSave" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="MvnSQL" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="application.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="application" />
+    <option name="MAIN_CLASS_NAME" value="application.UserDaoImplTest" />
+    <option name="METHOD_NAME" value="testSave" />
+    <option name="TEST_OBJECT" value="method" />
+    <option name="VM_PARAMETERS" value="-Denv=&quot;test&quot;" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
